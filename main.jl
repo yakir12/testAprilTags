@@ -32,3 +32,4 @@ t = @async while isopen(cam)
   sleep(0.001)
 end
 
+fig
