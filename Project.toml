@@ -1,0 +1,4 @@
+[deps]
+AprilTags = "f0fec3d5-a81e-5a6a-8c28-d2b34f3659de"
+GLMakie = "e9467ef8-e4e7-5192-8a1a-b1aee30e663a"
+VideoIO = "d6d074c3-1acf-5d4c-9a43-ef38773959a2"
