@@ -10,7 +10,7 @@ xy = Observable(rand(Point2f, 4))
 color = Observable(RGBAf(1,0,0,0))
 on(tags) do tags
   if !isempty(tags)
-    tag = only(tags)
+    tag = first(tags)
     xy[] = Point2f.(reverse.(tag.p))
     color[] = RGBAf(1,0,0,0.5)
   else
